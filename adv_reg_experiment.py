@@ -77,7 +77,7 @@ wavelet_weights = [float(i)
                    for i in eval(
                        hyperparameters.get(
                            'wavelet_weights',
-                           [4,2,1,0]
+                           '[4,2,1,0]'
                        )
                    )
                   ]
